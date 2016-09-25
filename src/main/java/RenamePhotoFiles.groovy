@@ -9,7 +9,7 @@ Integer startNumber = 1675
 
 new File(directory).listFiles().sort{ it.name }.each { file ->
     println "file: " + file.getName()
-    String newFileName = file.getParent() + '\\' + filePrefix + startNumber++ + fileType
+    String newFileName = file.getParent() + "\\" + filePrefix + startNumber++ + fileType
     println "new file name: " + newFileName
     file.renameTo(new File(newFileName))
     println ""
