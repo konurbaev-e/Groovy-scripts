@@ -1,4 +1,4 @@
-//used for renaming photo file names
+// used for renaming photo file names
 // when camera creates second directory with the same filenames
 // and you want to have the single directory with the sequential filenames like:
 // _DSC0001.JPG, _DSC0002.JPG
